@@ -4,7 +4,7 @@
 
 # Create a container with the compiled asp.net core app
 FROM microsoft/aspnetcore:2.0
-RUN mkdir abc
+RUN mkdir abcd
 # Create app directory
 WORKDIR /app
 
